@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.bg_container {
+  background: url("bg/bg_test.png") no-repeat scroll center center/cover;
+}
 .section1 {
   height: 40rem;
   width: 100%;
@@ -15,7 +18,7 @@
   font-weight: 900;
   font-size: 135.246px;
   line-height: 196px;
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,6 +32,11 @@
 nav {
   display: flex;
   height: 2rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
 }
 .subcontainer1_nav {
   width: 50%;
